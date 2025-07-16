@@ -3,7 +3,7 @@
 // Create Connection
 $conn = mysqli_connect('localhost', 'root', '', 'ajaxtest');
 
-$query = 'SELECT + FROM users';
+$query = 'SELECT * FROM users';
 
 // Get Result
 $result = mysqli_query($conn, $query);
